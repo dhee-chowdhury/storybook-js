@@ -1,8 +1,8 @@
+@import '@fontsource-variable/inter';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: red;
   @apply dark:bg-slate-950 dark:text-white;
 }
