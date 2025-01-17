@@ -11,6 +11,17 @@ const meta = {
     size: 'medium',
   },
   argTypes: {
+    children: {
+      name: 'Label',
+      control: 'text',
+      description: 'Test to display on the button',
+      table: {
+        disable: true,
+      },
+    },
+    size: {
+      control: 'select',
+    },
     disabled: {
       control: 'boolean',
     },
